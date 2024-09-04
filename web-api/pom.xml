@@ -12,7 +12,6 @@
     <artifactId>web-api</artifactId>
 
     <properties>
-        <jaxb.version>2.3.0</jaxb.version>
         <jaxb.plugin.version>0.14.0</jaxb.plugin.version>
     </properties>
 
@@ -20,17 +19,14 @@
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
-            <version>${jaxb.version}</version>
         </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-core</artifactId>
-            <version>${jaxb.version}</version>
         </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-impl</artifactId>
-            <version>${jaxb.version}</version>
         </dependency>
     </dependencies>
 
